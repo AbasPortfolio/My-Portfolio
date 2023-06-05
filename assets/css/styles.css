@@ -397,12 +397,16 @@ img{
 }
 
 
+.about__data{
+    align-self: center;
+    margin-bottom: var(--mb-0-25);
+}
 .about__description{
     text-align: center;
     justify-self: center;
     font-size: 17px;
     font-weight: 600;
-    color: var(--text-color-light);
+    color: var(--text-color);
     border-radius: 14%;
     font-size: var(--normal-font-size);
     padding: auto;
@@ -417,13 +421,13 @@ img{
 .about__info-title{
     font-size: var(--h2-font-size);
     font-weight: var(--font-semi-bold);
-    color: rgb(160, 125, 125);
+    color: black;
 }
 
 
 .about__info-name{
     font-size: var(--small-font-size);
-    color: var(--first-color-alt);
+    color: black;
 }
 
 .about__info-title,
